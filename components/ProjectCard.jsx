@@ -19,6 +19,7 @@ export default function ProjectCard({ title, srcImage, type, link }) {
         </h3>
         <p className="pb-4 pt-2">{type || ""}</p>
         <Link
+          target={"_blank"}
           className="py-3 rounded-lg bg-white/80 px-5 text-black font-bold text-lg w-[30px]"
           href={link || "/"}
         >

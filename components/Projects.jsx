@@ -1,4 +1,5 @@
 import ProjectCard from "./ProjectCard";
+import PortfolioImage from "../public/assets/projects/portfolio.png";
 
 export default function Projects() {
   return (
@@ -7,8 +8,11 @@ export default function Projects() {
         <p className="text-blue-700 text-xl tracking-wide uppercase">{`<Projects/>`}</p>
         <h2 className=" text-3xl py-3">What I've Build</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          {/* Here go all the projects */}
-          <ProjectCard />
+          <ProjectCard
+            title={"Portfolio"}
+            srcImage={PortfolioImage}
+            link={"https://github.com/FrostRX/portfolio"}
+          />
           <ProjectCard />
           <ProjectCard />
           <ProjectCard />
