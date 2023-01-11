@@ -11,7 +11,7 @@ export default function Contact() {
   console.log(errors);
 
   return (
-    <div className="w-full lg:h-screen">
+    <div className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-blue-700 text-xl tracking-wide uppercase">{`<Contact/>`}</p>
         <h2 className=" text-3xl py-3">Get in Touch</h2>

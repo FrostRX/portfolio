@@ -5,15 +5,15 @@ import Logo from "../public/assets/media/TRANSPARENT_Logo_NoOutline.png";
 
 export default function aboutPage() {
   return (
-    <div className="w-full md:h-screen p-2 flex items-center py-16">
+    <div className="w-full p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 content-center">
         <div className="col-span-2">
           <p className="text-blue-700 text-xl tracking-wide uppercase">{`<About Me/>`}</p>
           <h2 className=" text-3xl">Who I Am</h2>
           <div className="flex flex-col gap-5 mt-4">
             <p>
-              I am a Front-End developer with a passion for creating engaging
-              and functional user experiences. I have extensive experience using
+              Frontend Developer with a passion for creating engaging and
+              functional user experiences. I have extensive experience using
               modern front-end technologies, as well as developing responsive
               and cross-device web applications.
             </p>

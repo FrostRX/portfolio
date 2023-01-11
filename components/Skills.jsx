@@ -11,7 +11,7 @@ import Electron from "../public/assets/skills/electronLogo.png";
 
 export default function Skills() {
   return (
-    <div className="w-full lg:h-screen p-2 ">
+    <div className="w-full p-2 ">
       <div className="max-w-[1248px] mx-auto flex flex-col justify-center h-full">
         <p className="text-blue-700 text-xl tracking-wide uppercase">{`<Skills/>`}</p>
         <h2 className=" text-3xl py-3">What I Can Do</h2>
